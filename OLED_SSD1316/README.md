@@ -11,7 +11,7 @@ before using the library, you need to initialize the GPIOs and SPI. In my case, 
     #define MOSI_PIN      26
     #define CS_PIN        19
     #define D_RESET_PIN   21
-    #define D_DC_PIN	    22
+    #define D_DC_PIN	  22
 
     gpio_set_direction(D_RESET_PIN, GPIO_MODE_OUTPUT);
     gpio_intr_disable(D_RESET_PIN);
