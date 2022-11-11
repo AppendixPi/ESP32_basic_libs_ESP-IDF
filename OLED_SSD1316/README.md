@@ -26,6 +26,7 @@ before using the library, you need to initialize the GPIOs and SPI. In my case, 
     gpio_intr_disable(CS_PIN);
     gpio_pulldown_dis(CS_PIN);
     gpio_set_level(CS_PIN, 0);
+    
     spi_init();
 
 After whthat you can call the function ssd1306_Init() to initialize the Display.
