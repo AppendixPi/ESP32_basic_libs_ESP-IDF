@@ -4,7 +4,8 @@
 
 The library contains some standard functions plus some custom ones, comments in SSD1306.c file
 
-Description:
+## Description:
+
 before using the library, you need to initialize the GPIOs and SPI. In my case, I use the following PINs: 
 
     #define CLK_PIN       18
